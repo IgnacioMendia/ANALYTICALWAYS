@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ANALYTICALWAYS", "ANALYTICALWAYS\ANALYTICALWAYS.csproj", "{CE19D7B6-BC73-4566-AD9C-AA4250921F9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{47A6149D-5284-4048-91A7-C81A3470B8AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE19D7B6-BC73-4566-AD9C-AA4250921F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE19D7B6-BC73-4566-AD9C-AA4250921F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE19D7B6-BC73-4566-AD9C-AA4250921F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE19D7B6-BC73-4566-AD9C-AA4250921F9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47A6149D-5284-4048-91A7-C81A3470B8AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A6149D-5284-4048-91A7-C81A3470B8AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47A6149D-5284-4048-91A7-C81A3470B8AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47A6149D-5284-4048-91A7-C81A3470B8AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0219C7E-5735-4CCC-A279-A159302130D9}
+	EndGlobalSection
+EndGlobal
