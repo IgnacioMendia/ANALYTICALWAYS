@@ -1,0 +1,14 @@
+Explique el porqué de las cosas y cualquier otra consideración que consideres apropiada:
+Me base en .NET 6 por el largo plazo de soporte, decidí crear un proyecto de consola para poder usar y probar el sistema y que el usuario final pueda tener una parte grafica, 
+me base en la estructura de repositorios, ya que al migrar el proyecto a una base de datos, deberiamos tener el contexto de la BD y poder utilizar un solo contexto en toda la aplicación 
+sin estar obligados a escribir el codigo de nuevo.
+
+¿Qué cosas te hubiera gustado hacer pero no hiciste?
+Me hubiese gustado poder usar Entity Framework, ya que considero que un ORM en el desarrollo actual es indispensable y hace la interacción con la BD mucho mas intuitiva y segura.
+
+¿Qué cosas hiciste pero piensas que podrían mejorarse o sería necesario volver a ellas si el proyecto avanza?
+Lo que podria mejorarse es la parte del test unitario, ya que lo aprendí exclusivamente para esta aplicación y no pude llegar a tener un nivel de codigo que pueda acompañar al resto 
+de la aplicación al momento de crecer.
+
+¿Qué bibliotecas de terceros has utilizado y por qué?
+Utilice solamente la libreria de xUnit para poder hacer los test de la aplicación.
