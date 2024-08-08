@@ -9,3 +9,4 @@ C:\Users\Ignacio\source\repos\ANALYTICALWAYS\DataAccess\obj\Debug\net6.0\DataAcc
 C:\Users\Ignacio\source\repos\ANALYTICALWAYS\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
 C:\Users\Ignacio\source\repos\ANALYTICALWAYS\DataAccess\obj\Debug\net6.0\DataAccess.pdb
 C:\Users\Ignacio\source\repos\ANALYTICALWAYS\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+C:\Users\Ignacio\source\repos\ANALYTICALWAYS\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache

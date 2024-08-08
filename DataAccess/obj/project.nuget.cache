@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "sTFYxMT3vxr20AVUrItjxpi40cNjqV/VFw8cofVp2CACQiBEOyugjtSNihx/dR0E3ivTpVOvYr1gEpcLykVyVA==",
+  "dgSpecHash": "ZLyvn3id/cewGYiBZcT1oZgnb8xjARHx7Jt4i1uX1xdaiodrQd2+TrC0MD7sfJXdYBZB+WcfJJcjIXiEBuuheQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ignacio\\source\\repos\\ANALYTICALWAYS\\DataAccess\\DataAccess.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Ignacio\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
+    "C:\\Users\\Ignacio\\.nuget\\packages\\moq\\4.20.70\\moq.4.20.70.nupkg.sha512",
+    "C:\\Users\\Ignacio\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

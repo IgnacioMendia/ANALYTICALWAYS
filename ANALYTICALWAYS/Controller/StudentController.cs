@@ -1,4 +1,5 @@
-﻿using DataAccess;
+﻿using ANALYTICALWAYS.Interface;
+using DataAccess;
 using DataAccess.Model;
 using System;
 using System.Collections.Generic;
@@ -11,6 +12,12 @@ namespace ANALYTICALWAYS.Controller
     public class StudentController
     {
 		PaymentGatewayController _paymentGateway = new PaymentGatewayController();
+        private readonly IContext _context;
+
+        public StudentController(IContext context)
+        {
+            _context = context;
+        }
         public string RegisterStudent(Student objStudent)
         {
 			try
@@ -19,9 +26,9 @@ namespace ANALYTICALWAYS.Controller
 				{
 					if (objStudent.Age >= 18)
 					{
-						int LastId = Context.lstStudent.Select(x => x.Id).LastOrDefault();
-						objStudent.Id = LastId++;
-                        Context.lstStudent.Add(objStudent);
+						int LastId = _context.lstStudent.Select(x => x.Id).LastOrDefault();
+						objStudent.Id = LastId + 1;
+                        _context.lstStudent.Add(objStudent);
 						return "El estudiante fue creado con exito.";
                     }
 					else
@@ -47,9 +54,9 @@ namespace ANALYTICALWAYS.Controller
 				{
 					if (_paymentGateway.PaymentStudent() == true)
 					{
-                        int LastId = Context.lstStudentCourse.Select(x => x.Id).LastOrDefault();
+                        int LastId = _context.lstStudentCourse.Select(x => x.Id).LastOrDefault();
                         StudentCourse studentCourse = new StudentCourse() {Id = LastId++, IdStudent = idStudent, IdCourse = IdCourse};
-                        Context.lstStudentCourse.Add(studentCourse);
+                        _context.lstStudentCourse.Add(studentCourse);
                         return "El estudiante fue inscripto en el curso.";
                     }
 					else

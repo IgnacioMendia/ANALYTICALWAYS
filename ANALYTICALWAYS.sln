@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ANALYTICALWAYS", "ANALYTICALWAYS\ANALYTICALWAYS.csproj", "{CE19D7B6-BC73-4566-AD9C-AA4250921F9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ANALYTICALWAYS", "ANALYTICALWAYS\ANALYTICALWAYS.csproj", "{CE19D7B6-BC73-4566-AD9C-AA4250921F9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{47A6149D-5284-4048-91A7-C81A3470B8AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{47A6149D-5284-4048-91A7-C81A3470B8AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analyticalways.Tests", "Analyticalways.Tests\Analyticalways.Tests.csproj", "{6CACD39C-5382-43A8-A58B-7FB06DDBD1BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{47A6149D-5284-4048-91A7-C81A3470B8AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47A6149D-5284-4048-91A7-C81A3470B8AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47A6149D-5284-4048-91A7-C81A3470B8AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CACD39C-5382-43A8-A58B-7FB06DDBD1BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CACD39C-5382-43A8-A58B-7FB06DDBD1BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CACD39C-5382-43A8-A58B-7FB06DDBD1BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CACD39C-5382-43A8-A58B-7FB06DDBD1BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

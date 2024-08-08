@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "KbBZ3sGvNc/42eMOx/4MEDFprcAlkPSJA2r7vAxVYzjQ/KJ07W3enqi7a3VuvJ9LvxXCwM2CNXCmVCmFtOzG8g==",
+  "dgSpecHash": "ywKz2TFqG79dieERipoEpv1yz9I+EEAp6COlorU2eGPnLVL+lUvqkGbAL0nOdqVvyefejnU7+C4sZaFYn3rgjQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ignacio\\source\\repos\\ANALYTICALWAYS\\ANALYTICALWAYS\\ANALYTICALWAYS.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Ignacio\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
+    "C:\\Users\\Ignacio\\.nuget\\packages\\moq\\4.20.70\\moq.4.20.70.nupkg.sha512",
+    "C:\\Users\\Ignacio\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
